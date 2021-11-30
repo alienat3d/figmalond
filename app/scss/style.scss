@@ -31,26 +31,34 @@ h1{
 		&__list {
             display: flex;
             gap: 41px;
+            font-size: 15px;
+            line-height: 28px;  
            
         }
 		&__item {
-            display: flex;
             color: #fff;
-            margin-top: 63px;   
+            margin-top: 63px; 
+           
         }
 		&__link {
-
+          
         }
 }
 
 .logo {
-
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 206px;
+    height: 78px;
+    margin-left: 35px;
 }
 
 .contacts {
     display: flex;
-    justify-content: flex-end;
-  
+    align-items: center;
+    width: 170px;
+    margin-left: 300px;
 }
 
 .header {
@@ -67,6 +75,7 @@ h1{
             font-size: 28px;
             line-height: 40px;
             text-align: center;
+
         }
 		&__btn {
             display: flex;
@@ -77,8 +86,15 @@ h1{
             height: 52px;
             background: #2091F9;
             border-radius: 35px;
+            font-size: 20px;
+        }
+
+        &__inner {
+            display: flex;
+            align-items: center;
         }
 }
+
 
 
 // === ADAPTIVE ===
